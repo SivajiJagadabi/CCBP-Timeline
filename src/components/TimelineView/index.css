@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  min-height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  font-size: 26px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin: 0px;
+  text-align: center;
+}
+
+.ccbp-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  color: #171f46;
+  margin: 0px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
